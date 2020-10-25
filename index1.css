@@ -1,0 +1,295 @@
+      *
+      {
+        font-family: 'Roboto', sans-serif;
+      }
+      header.top-header
+      {
+        background-color: rgb(100, 13, 13);
+        color: white;
+      }
+      .marquee-style
+      {
+        font-size: 25px;
+        color:rgb(100, 13, 13);
+      }
+       #logo
+        {
+            float:left;
+        }
+        #img-logo
+        {
+            border-radius: 60%;
+            padding-top: 20px;
+        }
+        #phone
+        {
+            height:100px;
+            width: 60%;
+        }
+        #certificate
+        {
+            height:30px;
+            width:40px;
+
+        }
+        .certificate div:hover
+        {
+            color:pink;
+        }
+        .certificate div
+        {
+            font-size:40px;
+            font-weight: bold;
+            padding:20px;
+            color: white;
+            padding-top: 30px;
+            text-align: center;
+            
+
+        }
+        .certificate a
+        {
+            text-decoration: none;
+        }
+        div.right-corner
+        {
+            display:flex;
+            justify-content: flex-end;
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom:0px;
+        
+        }
+        div.rname
+        {
+            display: flex;
+            /**justify-content: center;
+            align-items: center;**/
+        }
+       a.rname
+        {
+           font-size: 40px;;
+        }
+       /* #name
+        {
+            justify-content: center;
+            align-items: center;
+        }*/
+        span.right-corner
+        {
+            background-color: rgb(100, 13, 13);
+            padding:5px;
+        
+        
+    
+            margin-left: 10px;
+            margin-bottom: 0px;
+
+        }
+        .right-corner a:hover
+        {
+            border: 1px solid pink;
+            border-radius: 50px;
+            padding: 10px;
+            background-color:white;
+        }
+        .right-corner a
+        {
+            text-decoration: none;
+            color:white;
+        }
+        .right-corner a:hover
+        {
+            color:pink;
+        }
+        .marquee-style
+        {
+            padding: 10px;
+        }
+        #r-image
+        {
+            width:400px;
+            height:400px;
+        }
+
+        
+        .first-body
+        {
+            display: flex;
+            flex:1;
+            flex-basis: 130px;
+            justify-content: space-around;
+            margin:20px 10px;
+            background-image: url("background.jfif");
+            background-repeat: repeat;
+        
+         /**   margin:0px;
+            padding:0px;
+            margin-top:50px;
+            margin-bottom: 50px;
+            margin-left: 45px;**/
+
+
+            
+
+        }
+         button
+        {
+
+          /**  border:1px solid pink;**/
+            background-color: rgb(100, 13, 13);
+            color:white;
+            padding: 15px;
+            border-radius: 50px;
+            cursor:pointer;
+            font-size: 20px;
+
+
+            
+        }
+        .menu 
+        {
+            /**left:0;**/
+        
+            border:2px brown solid;
+            border-radius:50px;
+           /** padding:20px;
+            margin-top: 60px;
+            height:250px;
+            margin-right:20px;
+            margin-left:5px;
+            display: inline-block;**/
+            text-align: center;
+            padding:20px 10px;
+            background-color:brown;
+            
+         
+
+        }
+        .dishes-class
+        {
+            text-decoration: none;
+            color: white;
+        }
+        
+        /**div.menu
+        {
+            background-image: url("menu.png");
+            background-repeat: no-repeat;
+
+            background-position: center;
+            text-align:center;
+            font-weight: bold;
+        }**/
+
+        .food-delivery
+        {
+          /**  position: center;**/
+        
+            border:2px brown solid;
+            border-radius: 50px;
+            /**padding:20px;
+            margin-top: 20px;
+            margin-right:20px;
+            height:250px;
+            margin-left:20px;
+            display: inline-block;**/
+            text-align: center;
+            padding:20px 10px;
+            background-color:brown;
+        }
+        /**div.food-delivery
+        {
+            background-image: url("delivery_image.png");
+            background-repeat: no-repeat;
+            background-position: top-center;
+            text-align:center;
+            font-weight: bold;
+        
+        }**/
+        a.special-class
+        {
+            text-decoration: none;
+            color:white;
+        }
+    
+        .map
+        {
+            /**right:0;**/
+        
+            border:2px brown solid;
+            border-radius: 50px;
+           /** padding:20px;
+            margin-top: 20px;
+            margin-right:25px;
+            height:250px;
+            margin-left:20px;
+            display: inline-block;**/
+            text-align: center;
+            padding:20px 10px;
+            background-color: brown;
+        }
+        /**div.map
+        {
+            background-image: url("maps.png");
+            background-repeat: no-repeat;
+        
+            background-position: center;
+            text-align:center;
+            font-weight: bold;
+        }**/
+        #find-us
+        {
+            text-decoration: none;
+        }
+        .button-map a
+        {
+            text-decoration: none;
+            color:white;
+        }
+        #myimage
+        {
+            width:150px;
+            height: 150px;
+            
+            
+        }   
+
+        .bottomfooter
+        {
+            
+            border:1px pink solid;
+            bottom:0px;
+            position: relative;
+            font-weight: bold;
+            background-color:rgb(100, 13, 13);
+            text-align:  center;
+            color:white;
+            font-size: 20px;
+            padding: 20px 10px;
+        }
+        .bottom-footer
+        {
+            display: flex;
+            flex: 1;
+            justify-content: space-around;
+        }
+        .copyright
+        {
+            display: flex;
+            justify-content: center;
+        }
+        hr
+        {
+            width:30%;
+        }
+        .bottom-footer a
+        {
+            text-decoration: none;
+            color:white;
+        }
+       #mail
+       {
+            cursor:pointer;
+       }
+        

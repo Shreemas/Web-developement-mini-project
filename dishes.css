@@ -1,0 +1,57 @@
+.container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box
+{
+    border:brown solid 1px;
+    border-radius: 30px;
+    background-color: brown;
+}
+img
+{
+    
+    width:200px;
+    height:200px;
+    border-radius: 30%;
+}
+h2
+{
+    text-align: center;
+    color:rgb(100, 13, 13);
+}
+.span-name
+{
+    margin: 30px;
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+    background-color: brown;
+}
+button
+{
+    display: flex;
+    padding: 10px;
+    background-color:rgb(100, 13, 13) ;
+    border:1px solid rgb(100, 13, 13);
+    border-radius: 35%;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+    margin: 10px auto;
+
+}
+.copyright
+{
+    background-color: rgb(100, 13, 13);
+    border:solid rgb(100, 13, 13) 1px;
+    color: white;
+    text-align: center;
+    margin:20px;
+    padding: 30px 20px;
+    height: 80px;
+    font-size: 24px;
+}
