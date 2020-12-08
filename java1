@@ -1,0 +1,50 @@
+import java.util.*;
+import java.io.*;
+
+class ras
+{
+static int mult(int x,int y,int n)
+{
+int k = 1;
+int j;
+for(int j = 0;j<y;j++)
+k = (k*x)%n;
+return (int)k;
+}
+public static void main(String args[])throws Exception
+{
+Scanner s = new Scanner(System.in);
+InputStreamReader r = new InputStreamReader(System.in);
+BufferedReader br = new BufferedReader(r);
+String msg1;
+int pt[]=new int[100];
+int ct[] = new int[100];
+int a,b,n,d,e,p,q,i,z;
+System.out.println("enter the 2 prime number p and q");
+p = s.nextInt();
+q = s.nextInt();
+n = p*q;
+z= (p-1)*(q-1);
+System.out.println("enter the value of e");
+e = s.nextInt();
+System.out.println("enter the message");
+msg1= br.readLine();
+char msg[] = msg1.toCharArray();
+for(int i=0;i<msg.length;i++)
+pt[i]= msg[i];
+for(d=1;d<msg.length;++d)
+if(((e*d)%z)==1)break;
+System.out.println("p="+p+"\tq="+q+"\tn="+n+"\tz="+z+"\te="+e+"\td="+d);
+System.out,println("cipher text is");
+for(int i=0;i<msg.length;i++)
+ct[i]=mult(pt[i],e,n);
+for(int i=0;i<msg.length;i++)
+System.out.println(ct[i]);
+System.out,println("plaint text is");
+for(int i=0;i<msg.length;i++)
+pt[i]=mult(ct[i],e,n);
+for(int i=0;i<msg.length;i++)
+System.out.println((char)pt[i]);
+}
+}
+
