@@ -1,0 +1,45 @@
+import java.net.*;
+import java.io.*;
+class Main
+{
+static int bkt;
+static void bktinput(int a,int b)
+{
+if(a>bkt)
+{
+System.out.println("bkt overflow and packet rejected");
+}
+else
+{
+while(a>b)
+{
+System.out.println("bytes outputtede is"+b);
+a-=b;
+}
+if(a>0)
+{
+System.out.println("remaining byte :"+a);
+System.out.println("last byte send:"+a);
+System.out.println("bytes send succesfully");
+}
+}
+}
+public static void main(String[] args)
+{
+int op,pktSize,i,N;
+Scanner s = new Scanner(System.in);
+System.out.println("enter the bkt size");
+bkt=s.nextInt();
+System.out.println("enter the output rate");
+op = s.nextInt();
+Random randomGenerator= new Random();
+System.out.println("number of packet to be generated");
+N=s.nextInt();
+for(i=0;i<N;i++)
+{
+pktSize=randomGenerator.nextInt(100);
+System.out.println("packet no"+" "+i+"and packet size:"+pktSize);
+}
+bktinput(pktSize,op);
+}
+}
